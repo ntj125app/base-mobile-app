@@ -19,8 +19,8 @@ importers:
         specifier: ~2.1.0
         version: 2.1.0(postcss@8.4.47)
       '@nativescript/types':
-        specifier: ~8.7.0
-        version: 8.7.0
+        specifier: ~8.8.0
+        version: 8.8.0
       '@nativescript/webpack':
         specifier: ~5.0.22
         version: 5.0.22(@vue/compiler-sfc@3.5.11)(lodash@4.17.21)(typescript@5.6.2)(utf-8-validate@5.0.10)
@@ -174,14 +174,14 @@ packages:
     peerDependencies:
       postcss: ^8.0.0
 
-  '@nativescript/types-android@8.7.0':
-    resolution: {integrity: sha512-ykrhxjEf0/ECyI6dtUEkQZhHLCkKeVZRwPuw658zTGgfXZ4ocaQ5EaCCCLLXy92/VepT0ynLo+MDaXEwAfm7Qg==}
+  '@nativescript/types-android@8.8.0':
+    resolution: {integrity: sha512-U8ZOT+dtfYbfMj2OY1l6h9RQB+0weBQu6sG/2hKYyqmFnyT69XLmWbjE26LkqCceAukVk2Vg15bpk6haZVLI/Q==}
 
-  '@nativescript/types-ios@8.7.0':
-    resolution: {integrity: sha512-g/tQY67SvIvPex35+Pi5OsNBLmevdYGMJKtCdPRMVcRDJOCNdSMVPkuQ7v8B6IQG7oHEJ6njACAY+jaFw1d58w==}
+  '@nativescript/types-ios@8.8.0':
+    resolution: {integrity: sha512-kifctOi4OR/7zLV/G5DxrK2Ws45lbsZROje+fGn7osnMXYs641zsrBIgm2OQuADcuMvNTk9ynHxI76NtPLPLYA==}
 
-  '@nativescript/types@8.7.0':
-    resolution: {integrity: sha512-ipC/sQz6Bic3dvgx1Z4Ec18Mn0dXB1WvZ9fxdtJmwjTtOPr1poRLy6TVwWw9EPasPVmwiZTzFD5dp09PpT02AQ==}
+  '@nativescript/types@8.8.0':
+    resolution: {integrity: sha512-cXzKaHdS9HXPga7G+jCMjhDgvZGGEYUJ4Uq+DpevPMz8aRVL1s4UPe7q75xi2DsgRSQzb6UM8FZNbpFsrtiPLg==}
 
   '@nativescript/webpack@5.0.22':
     resolution: {integrity: sha512-ISWZC5oDnnMLfgorn+VcihOkSbkZCGIvBB6+mSlqCUOzQnpdKjX5kj+IUgQcEqzAm7dm/kV+JGmf6Der2UY7Eg==}
@@ -2687,14 +2687,14 @@ snapshots:
       '@hookun/parse-animation-shorthand': 0.1.5
       postcss: 8.4.47
 
-  '@nativescript/types-android@8.7.0': {}
+  '@nativescript/types-android@8.8.0': {}
 
-  '@nativescript/types-ios@8.7.0': {}
+  '@nativescript/types-ios@8.8.0': {}
 
-  '@nativescript/types@8.7.0':
+  '@nativescript/types@8.8.0':
     dependencies:
-      '@nativescript/types-android': 8.7.0
-      '@nativescript/types-ios': 8.7.0
+      '@nativescript/types-android': 8.8.0
+      '@nativescript/types-ios': 8.8.0
 
   '@nativescript/webpack@5.0.22(@vue/compiler-sfc@3.5.11)(lodash@4.17.21)(typescript@5.6.2)(utf-8-validate@5.0.10)':
     dependencies:
