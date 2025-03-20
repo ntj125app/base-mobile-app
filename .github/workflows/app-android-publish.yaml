@@ -38,8 +38,6 @@ jobs:
           PLAY_UPLOAD_KEY: ${{ secrets.PLAY_UPLOAD_KEY }}
         run: |
           echo "$KEYSTORE_BASE64" | base64 -d > android/keystore.jks
-          echo "$PLAY_UPLOAD_KEY" | base64 -d > android/upload_cert.der
-          keytool -importcert -trustcacerts -file android/upload_cert.der -keystore android/keystore.jks -storepass $KEYSTORE_PASSWORD -alias $KEY_ALIAS -noprompt
           echo "storePassword=$KEYSTORE_PASSWORD" > android/key.properties
           echo "keyPassword=$KEY_PASSWORD" >> android/key.properties
           echo "keyAlias=$KEY_ALIAS" >> android/key.properties
